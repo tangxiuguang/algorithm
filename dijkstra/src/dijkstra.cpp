@@ -41,6 +41,9 @@ void dijkstra(int start, int n, const std::vector<std::vector<std::pair<int, int
 */
 void print_path(int start, int step, int n, const std::vector<std::pair<int, int>>& path, bool single_source)
 {
+    if (0 > start || 0 > step || 0 >= n || path.empty()) {
+        return;
+    }
     for (int i = 0; i < step; i++) {
         int index = (i + start) % n;
         std::cout << "Node " << (char)(start + 65) << " to node " << (char)(index + 65) << " value:"; // 65是把数字0转为字母A
