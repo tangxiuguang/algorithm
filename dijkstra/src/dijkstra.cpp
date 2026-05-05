@@ -1,4 +1,4 @@
-#include "../../include/graph/dijkstra.h"
+#include "../include/dijkstra.h"
 
 void dijkstra(int start, int n, const std::vector<std::vector<std::pair<int, int>>>& adj, std::vector<std::pair<int, int>>& path, bool single_source)
 {

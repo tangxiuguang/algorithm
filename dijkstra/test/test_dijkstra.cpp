@@ -1,4 +1,4 @@
-#include "../include/graph/dijkstra.h"
+#include "../include/dijkstra.h"
 
 int main()
 {
