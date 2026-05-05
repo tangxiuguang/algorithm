@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.15)
 
 # 工程名称（独立工程名，建议与算法名一致）
-project(dijkstra LANGUAGES CXX)
+project(astar LANGUAGES CXX)
 
 # 设置C++标准（兼容C++11及以上，匹配原有代码）
 set(CMAKE_CXX_STANDARD 11)
