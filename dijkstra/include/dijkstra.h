@@ -1,3 +1,6 @@
+#ifndef _DIJKSTRA_H_
+#define _DIJKSTRA_H_
+
 #include <iostream>
 #include <queue>
 #include <vector>
@@ -6,3 +9,5 @@
 
 void dijkstra(int start, int n, const std::vector<std::vector<std::pair<int, int>>>& adj, std::vector<std::pair<int, int>>& path, bool single_source = true);
 void print_path(int start, int step, int n, const std::vector<std::pair<int, int>>& path, bool single_source = true);
+
+#endif // _DIJKSTRA_H_
