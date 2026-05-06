@@ -14,6 +14,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # 编译所有算法（每个算法独立子目录，自动识别CMakeLists.txt）
 add_subdirectory(dijkstra)
 add_subdirectory(astar)
+add_subdirectory(dwa)
 # 后续新增算法，只需添加这一行（如A*）：
 # add_subdirectory(algorithms/a_star)
 
