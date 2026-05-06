@@ -20,7 +20,7 @@ void pint_path(const std::vector<std::vector<int>> &map, const std::vector<std::
 	
 	if (!path.empty()) {
 		grid[path.front().first][path.front().second] = 'S';
-		grid[path.back().first][path.back().second] = 'S';
+		grid[path.back().first][path.back().second] = 'E';
 	}
 	
 	for (int i = 0; i < rows; i++) {
